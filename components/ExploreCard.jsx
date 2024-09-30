@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
-import { useRouter } from "next/router";
 
 const ExploreCard = ({ id, imgUrl, url, about, title, index, active, handleClick }) => {
   const router = useRouter();

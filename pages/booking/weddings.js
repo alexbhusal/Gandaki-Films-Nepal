@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function weddings() {
   return (
@@ -8,4 +8,4 @@ function weddings() {
   )
 }
 
-export default weddings
+export default weddings;

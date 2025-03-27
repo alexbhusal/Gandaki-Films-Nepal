@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function photography() {
   return (
@@ -8,4 +8,4 @@ function photography() {
   )
 }
 
-export default photography
+export default photography;

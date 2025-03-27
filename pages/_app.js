@@ -1,6 +1,5 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import { SessionProvider } from "next-auth/react";
 const MyApp = ({ Component, pageProps: { session, ...pageProps }, }) => (
   <>
     <Head>
@@ -13,9 +12,7 @@ const MyApp = ({ Component, pageProps: { session, ...pageProps }, }) => (
         href="https://stijndv.com/fonts/Eudoxus-Sans.css"
       />
     </Head>
-    <SessionProvider session={session}>
       <Component {...pageProps} />
-    </SessionProvider>
   </>
 );
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function engagements() {
   return (
@@ -8,4 +8,4 @@ function engagements() {
   )
 }
 
-export default engagements
+export default engagements;

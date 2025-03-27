@@ -6,6 +6,6 @@ function musicVideo() {
       Music~Video
     </div>
   );
-};
+}
 
 export default musicVideo;

@@ -28,14 +28,14 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+        <div className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
         I specialize in optimizing technological infrastructures for efficiency and security. <br/>With expertise in troubleshooting and system administration, I drive innovation to propel business success. <br />
         you can hire me by<br />
         <div className='m-2 justify-center'>
         <a href="tel:+9779811064977" className='bg-green-500 p-2  border-2 border-white rounded-3xl'>Call</a> &emsp;&emsp;
         <a href="mailto:alexbhusal@icloud.com" className='bg-blue-500 p-3 border-2 border-white rounded-3xl'>mail</a>
         </div>
-        </p>
+        </div>
       </motion.div>
 
       <motion.div

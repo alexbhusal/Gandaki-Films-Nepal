@@ -31,8 +31,6 @@ const ExploreCard = ({ id, imgUrl, url, about, title, index, active, handleClick
             className={`${styles.flexCenter} w-[100px] h-[50px] rounded-[24px] glassmorphism mb-[16px]`}
           >
             <p onClick={() => router.push(url)} className="text-white font-bold">Book Now</p>
-
-
           </div>
           <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
             {about}

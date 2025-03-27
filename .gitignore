@@ -1,4 +1,27 @@
-node_modules
+# Node modules
+node_modules/
 
-
+# Package lock file (optional, depending on your workflow)
 package-lock.json
+
+# Next.js build output
+.next/
+
+# Logs
+*.log
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Mac system files
+.DS_Store
+
+# IDE files
+.vscode/
+
+# npm debug log
+npm-debug.log*
+
+# Yarn lock file (if you're using Yarn)
+yarn.lock

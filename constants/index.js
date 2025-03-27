@@ -4,14 +4,14 @@ export const exploreWorlds = [
     imgUrl: '/img.jpeg',
     title: 'Weddings',
     about:'We provide Weddings',
-    url:'/weddings'
+    url:'booking/weddings'
   },
   {
     id: 'world-2',
     imgUrl: '/img2.jpeg',
     title: 'Pre/Post-wedding',
     about:'We provide Pre/Post-Weddings',
-    url:'/pre-post'
+    url:'booking/pre-post'
 
   },
   {
@@ -19,7 +19,7 @@ export const exploreWorlds = [
     imgUrl: '/post.jpeg',
     title: 'Engagements',
     about:'we provide Engagements',
-    url:'/engagements'
+    url:'booking/engagements'
 
   },
   {
@@ -27,14 +27,14 @@ export const exploreWorlds = [
     imgUrl: '/img4.jpeg',
     title: ' Music-Video Creation',
     about:'we provide Music Video Creation',
-    url:'/music-video'
+    url:'booking/music-video'
   },
   {
     id: 'world-5',
     imgUrl: '/img5.jpeg',
     title: 'Product~photography',
     about:'We provide Product~photograph',
-    url:'/photography',
+    url:'booking/photography',
   },
 ];
 

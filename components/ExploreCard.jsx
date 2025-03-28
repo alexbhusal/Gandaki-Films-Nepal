@@ -1,12 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
 const ExploreCard = ({ id, imgUrl, url, about, title, index, active, handleClick }) => {
-  const router = useRouter();
 
   return (
     <motion.div
@@ -30,9 +28,9 @@ const ExploreCard = ({ id, imgUrl, url, about, title, index, active, handleClick
           <div
             className={`${styles.flexCenter} w-[100px] h-[50px] rounded-[24px] glassmorphism mb-[16px]`}
           >
-            <p onClick={() => router.push(url)} className="text-white font-bold">Book Now</p>
+            <p onClick={() =>window.open(url,'_blank')} className="text-white font-bold">Book Now</p>
           </div>
-          <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
+          <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase tracking-wide">
             {about}
           </p>
           <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
